@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <style>
+            .banner img{
+                height: auto;
+                width: 1520px;
+            }
+            .h2{
+              color: black;
+              font-size: 65px;
+              height: 30px;
+            }
+            h1{
+                margin-left: 700px;
+            }
+            ul{
+                float: right;
+                list-style: none;
+                position: absolute;
+                
+            }
+            *{
+                 box-sizing:border-box box; 
+                }
+                .container{
+                    border: radius 5px;
+                     background-color: #f2f2f2;
+                     padding: 20px;
+                     
+                    }
+                    input[type=text],select,textarea,input[type=date]{
+                        width: 100%;
+                        padding: 12px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        resize: vertical;
+                    }
+                    label{
+                        padding: 12px ;
+                        display: inline-block;
+                    }
+                    input[type=submit]{
+                        background-color: blue;
+                        color: white;
+                        padding: 12px 20px;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        float: right;
+                    }
+                    .one{
+                        float: left;
+                        width: 20%;
+                        margin-top: 6px;
+                        margin-left: 700px;
+                        color: black;
+                    }
+                    .two{
+                        float:right;
+                        width: 30%;
+                        margin-top: 6px;
+                    }
+                    .row::after{
+                        content: "";
+                        display: table;
+                        clear: both;
+                    }
+                     
+</style>
+    </head>
+    <body>
+       
+        <div class="banner">
+            <img src="Pictures/Jetwin.jpg">
+        <h2 align="center"><font color="black">Trust Our Experience</font></h2>
+        <p align="center" > Experience something new moment</p>
+        <br>
+        <b><p align="center"><font color="red"> All luxury rooms and suites offer magnificent views<br> 
+        of the golf course,the resort's tropical gardens.</font></b></body></p><br><br>
+    </div>
+        
+            
+                
+            
+        <ul>
+            <Li><img src="Pictures/h1.jpg" width="450" height="200"></Li>
+            <Li><img src="Pictures/h2.jpg" width="450" height="200"></Li>
+            <Li><img src="Pictures/h3.jpg" width="450" height="200"></Li>
+            <Li><img src="Pictures/h4.jpg" width="450" height="200"></Li>
+        </ul>
+    
+    
+        <div class="container">
+            <form>
+            <h1>Reservation Details</h1>
+            <div class="row">
+              <div class="One">
+                <lable for="fname">First Name</lable>
+            </div>
+                <div class="two">
+                <input type="text" id="fname" name="fname" placeholder="Your first name">
+               </div>
+            </div>
+            
+        <div class="row">
+            <div class="One">
+                <lable for="lname">Last Name</lable>
+            </div>
+                <div class="two">
+                <input type="text" id="lname" name="lname" placeholder="Your last name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="One">
+                <lable for="address1">Address 1</lable>
+            </div>
+                <div class="two">
+                <input type="text" id="address1" name="address1"  placeholder="Your Address  1">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="One">
+                <lable for="address2">Address 2</lable>
+                </div>
+                <div class="two">
+                <input type="text" id="address2" name="address2"  placeholder="Your Address 2">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="One">
+                <lable for="country">Country</lable>
+                </div>
+                <div class="two">
+                <select id="country" name="country" >
+                    <option value="australia"> Australia </option>
+                    <option value="china"> China </option>
+                    <option value="canada"> Canada </option>
+                    <option value="usa"> USA </option>
+                    <option value="japan"> Japan</option>
+                    <option value="india"> India </option>
+                </select>
+              
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="One">
+                        <lable for="phone"> Phone </lable>
+                    </div>
+                        <div class="two">
+                        <input type="text" id="phone" name="phone"  placeholder="Your phone number">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="One">
+                        <lable for="email">Email</lable>
+                    </div>
+                        <div class="two">
+                        <input type="text" id="email" name="email"  placeholder="Your Email Address">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="One">
+                        <lable for="indate">Check-in Date & Time </lable>
+                    </div>
+                    <div class="two">
+                        <input type="date" id="indate" >  <input type="time" id="time" >
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="One">
+                        <lable for="odate"> Check-out Date & Time </lable>
+                    </div>
+                    <div class="two">
+                        <input type="date" id="oDate" >  <input type="time" id="time" >
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="One">
+                        <lable for="comment"> Comment </lable>
+                    </div>
+                    <div class="two">
+                <textarea id="comment" name="comment"  placeholder="Write something.." style="height: 180px;" ></textarea>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <input type="submit"  value="Submit">
+        </div>
+    </form>
+    </div>
+
+
+    </body>
+</html>
